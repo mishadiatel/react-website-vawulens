@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-website-vawulens">
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
